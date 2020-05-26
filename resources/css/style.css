@@ -1,0 +1,365 @@
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
+html, body, div, span h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*header*/
+
+.navbar {
+    padding: .5rem 80px !important;
+}
+
+header ul li {
+    text-transform: uppercase;
+}
+
+.logo {
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+/*main*/
+
+
+.container-wrapper {
+    margin: 0 80px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    margin: 0 !important;
+}
+
+h1, h2 {
+    text-transform: uppercase;
+}
+
+.green--bg {
+    background-color: #18BC9C;
+    color: white;
+    padding: 50px 0;
+}
+
+.white--bg {
+    background-color: white;
+    color: black;
+    padding: 50px 0;
+}
+
+.about--download {
+    text-align: center;
+}
+
+.about--download a {
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.about--download a:hover {
+    color: #18BC9C;
+    text-decoration: none;
+    background-color: white;
+}
+
+.underline{
+    text-align: center;
+    position: relative;
+}
+
+.underline--right {
+    background-color: white;
+    position: absolute;
+    top: -6px;
+    left: 570px;
+    right: 450px;
+    height: 2px;
+}
+
+.underline--left {
+    background-color: white;
+    position: absolute;
+    top: -6px;
+    right: 570px;
+    left: 450px;
+    height: 2px;
+}
+
+.white--bg .underline--right {
+    background-color: black;
+    position: absolute;
+    top: -6px;
+    left: 570px;
+    right: 450px;
+    height: 2px;
+}
+
+.white--bg .underline--left {
+    background-color: black;
+    position: absolute;
+    top: -6px;
+    right: 570px;
+    left: 450px;
+    height: 2px;
+}
+
+.start--img {
+    text-align: center;
+    width: 100%;
+}
+
+.start--img img {
+    max-width: 20%;
+}
+
+.portfolio--item {
+    width: 100%;
+    margin: 15px 0;
+}
+
+.portfolio--item img {
+    max-width: 100%;
+}
+
+.about--description{
+    padding: 0 20px;
+}
+
+.contact--form input, .contact--form textarea{
+    border: none;
+    border-bottom: 1px solid #6c757d;
+}
+
+.btn--contact{
+    background-color: #18BC9C;
+    color: white;
+    border: 1px solid #18BC9C;
+    border-radius: 5px;
+    padding: 6px 15px;
+}
+
+.btn--contact:hover{
+    background-color: white;
+    color: #18BC9C;
+    transition: 0.3s ease;
+}
+
+/*footer*/
+footer{
+    color: white;
+}
+.footer--contact{
+    background-color: #2C3E50;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer--label{
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.footer--info a{
+    color: #18BC9C;
+}
+
+.footer--info a:hover{
+    color: #18BC9C;
+    text-decoration: none;
+}
+
+.footer--list{
+    padding: 0;
+    margin: 0;
+}
+
+.footer--icon{
+    list-style-type: none;
+    display: inline;
+    margin: 0 5px;
+}
+
+.footer--info{
+    margin-bottom: 0;
+}
+
+.footer--copyright{
+    background-color: #1A252F;
+    padding: 20px;
+}
+
+.footer--copyright p{
+    margin: 0;
+    text-align: center;
+    font-size: 13px;
+}
+
+.footer--icon a i{
+    color: white;
+    border: 1px solid white;
+    padding: 10px 12px;
+    border-radius: 50%;
+}
+
+.footer--icon a i:hover{
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 1199px) and  (min-width: 992px){
+    .underline--right {
+        right: 480px;
+        left: 360px;
+    }
+
+    .underline--left {
+        right: 360px;
+        left: 480px;
+    }
+
+    .white--bg .underline--right {
+        right: 480px;
+        left: 360px;
+    }
+
+    .white--bg .underline--left {
+        right: 360px;
+        left: 480px;
+    }
+}
+
+@media (max-width: 991px) and  (min-width: 768px){
+    .underline--right {
+        right: 360px;
+        left: 240px;
+    }
+
+    .underline--left {
+        right: 240px;
+        left: 360px;
+    }
+
+    .white--bg .underline--right {
+        right: 360px;
+        left: 240px;
+    }
+
+    .white--bg .underline--left {
+        right: 240px;
+        left: 360px;
+    }
+}
+
+@media (max-width: 767px) and  (min-width: 576px){
+    .underline--right {
+        right: 270px;
+        left: 130px;
+    }
+
+    .underline--left {
+        right: 130px;
+        left: 270px;
+    }
+
+    .white--bg .underline--right {
+        right: 270px;
+        left: 130px;
+    }
+
+    .white--bg .underline--left {
+        right: 130px;
+        left: 270px;
+    }
+}
+
+
+
+@media (max-width: 575px) and  (min-width: 320px){
+    .underline--right {
+        right: 130px;
+        left: 285px;
+    }
+
+    .underline--left {
+        right: 285px;
+        left: 130px;
+    }
+
+    .white--bg .underline--right {
+        right: 130px;
+        left: 285px;
+    }
+
+    .white--bg .underline--left {
+        right: 285px;
+        left: 130px;
+    }
+}
+@media (max-width: 480px) and  (min-width: 320px){
+    .underline--right {
+        right: 0;
+        left: 240px;
+    }
+
+    .underline--left {
+        right: 240px;
+        left: 0;
+    }
+
+}
+
+@media (max-width: 1037px) and  (min-width: 984px){
+    .footer--icon{
+        margin: 0 3px;
+    }
+}
+
+@media (max-width: 983px) and  (min-width: 957px){
+    .footer--icon{
+        margin: 0 2px;
+    }
+}
+
+@media (max-width: 956px) and  (min-width: 840px){
+    .footer--icon{
+        margin: 0 1px;
+
+    }
+
+    .footer--icon a i{
+        padding: 7px 9px;
+    }
+}
+
+@media (max-width: 839px) and  (min-width: 783px){
+    .footer--icon{
+        margin: 0;
+
+    }
+    .footer--icon a i{
+        padding: 6px 8px;
+    }
+}
+
+@media (max-width: 782px) and  (min-width: 768px){
+    .footer--icon{
+        margin: 0;
+
+    }
+    .footer--icon a i{
+        padding: 6px 7px;
+    }
+}
+
+.navbar2{
+    color: red;
+}
